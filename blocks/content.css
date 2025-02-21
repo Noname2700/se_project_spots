@@ -1,0 +1,19 @@
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
+  padding-bottom: 40px;
+}
+
+@media screen and (max-width: 627px) {
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 288px;
+}
+
+}

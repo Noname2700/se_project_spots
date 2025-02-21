@@ -6,7 +6,9 @@
 
 .profile__avatar {
   margin-right: 20px;
-  border-radius: round;
+  border-radius: 8px;
+  width: 190px;
+  height: 190px;
 }
 
 .profile__name {
@@ -17,6 +19,13 @@
   line-height: 32px;
   letter-spacing: 0;
   color: #212121;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
 }
 .profile__description {
   margin: 0;
@@ -26,6 +35,16 @@
   line-height: 16px;
   letter-spacing: 0;
   color: rgba(33, 33, 33, 70%);
+  width: 420px;
+  height: 48px;
+  padding-bottom: 18px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  line-clamp: 3;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  max-width: 420px;
 }
 
 .profile__column {
@@ -34,13 +53,23 @@
 }
 
 .profile__edit-btn {
-  margin-top: 130px;
+  margin-top: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 0;
   color: #212121;
+  border: none;
+  opacity: 70%;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  white-space: nowrap;
+  max-width: fit-content;
 }
 
 .profile__add-btn {
@@ -51,4 +80,56 @@
   margin-top: 138px;
   background-color: #212121;
   color: #fff;
+}
+
+@media screen and (max-width: 627px) {
+  .profile {
+    flex-direction: column;
+    max-width: 288px;
+    align-items: center;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .profile__name {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 6px;
+    max-width: 288px;
+  }
+
+  .profile__description {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 32px;
+    max-width: 288px;
+  }
+
+  .profile__column {
+    margin-bottom: 20px;
+  }
+
+  .profile__avatar {
+    margin-right: 0;
+    height: 80px;
+    width: 80px;
+    margin-bottom: 12px;
+  }
+
+  .profile__add-btn {
+    margin: 0;
+    width: 100%;
+  }
+
+  .profile__edit-btn {
+    border: none;
+  }
 }
