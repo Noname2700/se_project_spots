@@ -1,10 +1,6 @@
-.card {
-  max-width: 413px;
-}
-
 .card__image {
   height: 413px;
-  width: 413px;
+  width: 100%;
   object-fit: cover;
   display: block;
   border-radius: 8px;
@@ -31,6 +27,81 @@
   line-height: 24px;
   letter-spacing: 0;
   color: #212121;
+  width: 119px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__title-2 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+  width: 190px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__title-3 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+  width: 162px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__title-4 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+  width: 353px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__title-5 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+  width: 257px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.card__title-6 {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #212121;
+  width: 163px;
+  height: 24px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__like-btn {
@@ -40,4 +111,54 @@
   border: none;
   background-color: transparent;
   opacity: 40%;
+  cursor: pointer;
+}
+
+.card__like-btn:hover {
+  color: #212121;
+}
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+  }
+  .card__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", "Arial", "Helvetica", "sans-serif";
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 18px;
+    padding-top: 12px;
+  }
+
+  .card__title {
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #212121;
+    width: 95px;
+    height: 16px;
+  }
+
+  .card__like-btn {
+    background-image: url(../images/heart.svg);
+    width: 20px;
+    height: 18px;
+    border: 2px;
+    background-color: transparent;
+    opacity: 40%;
+  }
+
+  .card__like-btn:hover {
+    color: #212121;
+  }
 }
