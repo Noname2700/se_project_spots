@@ -34,3 +34,5 @@ The project still follows the BEM methodology on each HTML Semantic tag in order
 [Deployment-Link]https://noname2700.github.io/se_project_spots/
 
 ## Project Link Video
+
+[Project-Video]https://drive.google.com/file/d/12L4Hw3ChLlkI6wqZo2J4eNm6GAeluM3r/view?usp=sharing
