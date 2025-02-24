@@ -27,8 +27,8 @@
   line-height: 24px;
   letter-spacing: 0;
   color: #212121;
-  width: 119px;
-  height: 24px;
+  max-width: 119px;
+  max-height: 24px;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -134,7 +134,7 @@
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
-    height: 18px;
+    max-height: 18px;
     padding-top: 12px;
   }
 
@@ -145,8 +145,8 @@
     line-height: 16px;
     letter-spacing: 0;
     color: #212121;
-    width: 95px;
-    height: 16px;
+    max-width: 95px;
+    max-height: 16px;
   }
 
   .card__like-btn {

@@ -1,21 +1,36 @@
 # Project 3: Spots
 
-### Overview  
+## Decription
 
-* Intro  
-* Figma  
-* Images  
-  
-**Intro**
-  
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+This is the third project of the Software Engineering program at TripleTen. It was created using HTML and CSS, based on the design that was provided for us through Figma in order to create a responsive website. The project contained images that were provided to us, among those images was an avatar image of Bessie Coleman along with a couple of different sets of images that display different cinerary, with this in our possession we created a responsive website.
+
+The project still follows the BEM methodology on each HTML Semantic tag in order to make our website's code readable and clean. We were instructed to create a responsive website using the Figma design we were given in order to make a website that will be displayed across all screen devices,  To make this happen we used the Figma design to set up our website in the HTML5 after that, It was to CSS where we then learn to play around with the design kind of like a puzzle we were verifying through trial and error which pieces go where this is where we got introduce to media queries, By using what we learned about media queries we were able to complete the project and make a our website responsive. We implemented things from previous lessons as well that were able to help us through the project.
+
+## Project features
+
+- Semantic HTML5
+- BEM Method
+- Figma
+- Flexbox
+- Grid
+- Media Queries
+- Positioning
+- Flat BEM file structure
+
+## Figma
+
+- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+## Images
+
+![alt text](image-1.png)
+
+![alt text](image-8.png)
+
+![alt text](image-9.png)
+
+## Project Link Video
+
+## GitHub Project Page
+
+[Github page](https://github.com/Noname2700/se_project_spots)
