@@ -29,8 +29,8 @@ The project still follows the BEM methodology on each HTML Semantic tag in order
 
 ![alt text](image-9.png)
 
+## Deployment Link
+
+[Deployment-Link]https://noname2700.github.io/se_project_spots/
+
 ## Project Link Video
-
-## GitHub Project Page
-
-[Github page](https://github.com/Noname2700/se_project_spots)
