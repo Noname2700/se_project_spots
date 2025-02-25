@@ -2,11 +2,12 @@
   max-width: 1280px;
   margin: 0 auto;
   border-bottom: 1px rgba(33, 33, 33, 0.4) solid;
-  padding-bottom: 0 20px;
+  padding: 0 20px;
 }
 
 @media screen and (max-width: 627px) {
   .content {
     max-width: 288px;
+    padding: 0 16px;
   }
 }

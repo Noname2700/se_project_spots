@@ -19,6 +19,8 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   color: #212121;
   max-width: 350px;
   text-overflow: ellipsis;
@@ -27,7 +29,7 @@
 }
 
 .card__like-btn {
-  background-image: url(../images/heart.svg);
+  background-image: url(../images/like-icon-dark.svg);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -58,10 +60,8 @@
   }
 
   .card__like-btn {
-    background-image: url(../images/heart.svg);
+    background-image: url(../images/like-icon-dark.svg);
     width: 20px;
     height: 18px;
-    background-color: transparent;
-    opacity: 40%;
   }
 }
