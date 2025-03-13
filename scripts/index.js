@@ -1,4 +1,4 @@
-const initialcards = [
+const initialCards = [
   {
     name: "Val Thorens",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/1-photo-by-moritz-feldmann-from-pexels.jpg",
@@ -25,8 +25,6 @@ const initialcards = [
   },
 ];
 
-console.log(initialcards);
-
 const profileEditButton = document.querySelector(".profile__edit-btn");
 const profileName = document.querySelector(".profile__name");
 const profileDescription = document.querySelector(".profile__description");
@@ -40,7 +38,7 @@ const editModalDescriptionInput = editModal.querySelector(
 );
 
 const cardTemplate = document.querySelector("#card-template");
-const cardslist = document.querySelector(".cards__list");
+const cardsList = document.querySelector(".cards__list");
 
 function getCardElement(data) {
   const cardElement = cardTemplate.content
@@ -78,7 +76,7 @@ profileEditButton.addEventListener("click", openModal);
 editModalCloseBtn.addEventListener("click", closeModal);
 editFormElement.addEventListener("submit", handleFormSubmit);
 
-for (let i = 0; i < initialcards.length; i++) {
-  const cardElement = getCardElement(initialcards[i]);
-  cardslist.prepend(cardElement);
+for (let i = 0; i < initialCards.length; i++) {
+  const cardElement = getCardElement(initialCards[i]);
+  cardsList.prepend(cardElement);
 }

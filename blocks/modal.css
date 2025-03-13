@@ -33,13 +33,23 @@
   right: 50px;
   width: 40px;
   height: 40px;
-  background-image: url(../images/close-btn.png);
+  background-image: url(../images/closebtn.svg);
   border: none;
+  cursor: pointer;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  border: 1px;
+  opacity: 0.4;
+}
+
+.modal__close-btn:hover {
+  opacity: 1;
 }
 
 .modal__title {
   margin: 0 0 32px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 32px;
   line-height: 100%;
@@ -51,7 +61,7 @@
   flex-direction: column;
   gap: 8px;
   margin-bottom: 32px;
-  font-family: "Poppins";
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 100%;
@@ -62,6 +72,13 @@
 .modal__input {
   padding: 16px 12px;
   border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.modal__input:hover {
+  border: 1px solid #212121;
 }
 
 .modal__submit-btn {
@@ -75,6 +92,7 @@
   letter-spacing: 0;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
 }
 
 .modal__submit-btn:hover {

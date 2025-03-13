@@ -39,6 +39,7 @@
   background-color: transparent;
   opacity: 40%;
   cursor: pointer;
+  display: block;
 }
 
 .card__like-btn:hover {
@@ -60,5 +61,8 @@
     background-image: url(../images/like-icon-dark.svg);
     width: 20px;
     height: 18px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }

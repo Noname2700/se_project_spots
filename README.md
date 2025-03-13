@@ -6,6 +6,8 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 The project still follows the BEM methodology on each HTML Semantic tag in order to make our website's code readable and clean. We were instructed to create a responsive website using the Figma design we were given in order to make a website that will be displayed across all screen devices,  To make this happen we used the Figma design to set up our website in the HTML5 after that, It was to CSS where we then learn to play around with the design kind of like a puzzle we were verifying through trial and error which pieces go where this is where we got introduce to media queries, By using what we learned about media queries we were able to complete the project and make a our website responsive. We implemented things from previous lessons as well that were able to help us through the project.
 
+We got introduce to JavaScript and started to implementing it to our project in order to make functional and have active button on the iste.
+
 ## Project features
 
 - Semantic HTML5
@@ -16,6 +18,7 @@ The project still follows the BEM methodology on each HTML Semantic tag in order
 - Media Queries
 - Positioning
 - Flat BEM file structure
+- JavaScript
 
 ## Figma
 
