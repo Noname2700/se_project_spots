@@ -43,18 +43,15 @@
 }
 
 .card__delete-btn {
-  background-image: url(../images/deletedefault.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  position: absolute;
   width: 32px;
   height: 32px;
-  top: 10px;
-  left: 371px;
   border: none;
   background-color: transparent;
   cursor: pointer;
-  display: block;
+  padding: 0;
+  margin-top: 10px;
+  margin-left: 371px;
 }
 
 .card__footer {
