@@ -23,6 +23,10 @@ const initialCards = [
     name: "Mountain house",
     link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jpg",
   },
+  {
+    name: "Aerial view of a city",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/7-photo-by-griffin-wooldridge-from-pexels.jpg",
+  },
 ];
 
 const editModalBtn = document.querySelector(".profile__edit-btn");
@@ -58,6 +62,12 @@ function getCardElement(data) {
   const cardImage = cardElement.querySelector(".card__image");
   const cardLikeBtn = cardElement.querySelector(".card__like-btn");
   const cardDeleteBtn = cardElement.querySelector(".card__delete-btn");
+  const previewModal = document.querySelector("#preview-modal");
+  const previewModalImage = previewModal.querySelector(".modal__image");
+  const previewModalCaption = previewModal.querySelector(".modal__caption");
+  const previewModalCloseBtn = previewModal.querySelector(
+    ".modal__close_type_preview"
+  );
 
   cardName.textContent = data.name;
   cardImage.src = data.link;
@@ -69,6 +79,17 @@ function getCardElement(data) {
 
   cardDeleteBtn.addEventListener("click", () => {
     cardElement.remove();
+  });
+
+  cardImage.addEventListener("click", () => {
+    openModal(previewModal);
+    previewModalImage.src = data.link;
+    previewModalImage.alt = data.name;
+    previewModalImage.textContent = data.name;
+  });
+
+  previewModalCloseBtn.addEventListener("click", () => {
+    closeModal(previewModal);
   });
 
   return cardElement;
