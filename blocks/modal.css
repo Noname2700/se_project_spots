@@ -93,6 +93,7 @@
   background-color: #212121;
   color: #fcf5e5;
   cursor: pointer;
+  transition: background 0.3s;
 }
 
 .modal__submit-btn:hover {
