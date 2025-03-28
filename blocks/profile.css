@@ -70,10 +70,13 @@
   border: none;
   max-width: fit-content;
   cursor: pointer;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
 .profile__edit-btn:hover {
+  visibility: visible;
   opacity: 1;
+  transition-delay: 0s;
 }
 
 .profile__add-btn {
@@ -95,10 +98,12 @@
   justify-content: center;
   gap: 8px;
   cursor: pointer;
+  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
 }
 
 .profile__add-btn:hover {
   opacity: 0.8;
+  transition-delay: 0s;
 }
 
 @media screen and (max-width: 627px) {

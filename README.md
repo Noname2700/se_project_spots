@@ -6,7 +6,7 @@ This is the third project of the Software Engineering program at TripleTen. It w
 
 The project still follows the BEM methodology on each HTML Semantic tag in order to make our website's code readable and clean. We were instructed to create a responsive website using the Figma design we were given in order to make a website that will be displayed across all screen devices,  To make this happen we used the Figma design to set up our website in the HTML5 after that, It was to CSS where we then learn to play around with the design kind of like a puzzle we were verifying through trial and error which pieces go where this is where we got introduce to media queries, By using what we learned about media queries we were able to complete the project and make a our website responsive. We implemented things from previous lessons as well that were able to help us through the project.
 
-We got introduce to JavaScript and started implementing it to our project in order to make a functional form and have active button on the site so that when it is clicked it would have some action. The action button will allow us to edit the profile and description elements on it as well. 
+We got introduce to JavaScript and started implementing it to our project in order to make a functional form and have active button on the site so that when it is clicked it would have some action. The action button will allow us to edit the profile and description elements on it as well. While the other button would add more cards with images on them.
 
 ## Project features
 
@@ -19,6 +19,16 @@ We got introduce to JavaScript and started implementing it to our project in ord
 - Positioning
 - Flat BEM file structure
 - JavaScript
+
+## Improvements Made To Project
+
+- The change of the for loop array method with the ForEach method to render the cards in a more efficient way.
+- We created a form that will allow the user to add cards with images of their choice on the webpage.
+- Modification to the new post button was made in order for it to have an action to allow users to add cards.
+- The like button was also modified by making it active and a color change was made so that when the user hovers over on and off the different stages of color will take action on the button.
+- We implemented a delete button to the cards and made it active with the same hover state actions as the other buttons.
+- A preview stage was implemented to the cards so that the image would appear over the page, but not cover the entire page, which means that we added a new close button to exit out of it.
+- We also added a transition mode to it so that when the user interacts with both the edit and new post buttons the transition will take place, The same goes for when the user interacts with the cards(if you click on the card you will see the transition happen like in the button).
 
 ## Figma
 
