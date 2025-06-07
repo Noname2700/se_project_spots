@@ -171,6 +171,61 @@
   opacity: 0.8;
 }
 
+.modal__title_type_delete {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
+.modal__form_type_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.modal__container_type_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.modal__submit-btn_type_delete {
+  background-color: #ff6565;
+  color: #212121;
+  cursor: pointer;
+  border: none;
+}
+
+.modal__submit-btn_type_delete:hover:not(.modal__submit-btn_disabled) {
+  background-color: #ff3333;
+  color: #212121;
+  opacity: 1;
+}
+
+.modal__cancel-btn {
+  width: 156px;
+  padding: 18px 0;
+  border-radius: 8px;
+  font-family: "Poppins";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  background-color: #fcf5e5;
+  color: #212121;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.modal__cancel-btn:hover:not(.modal__cancel-btn_disabled) {
+  background-color: #212121;
+  color: #fcf5e5;
+}
+
 @media screen and (max-width: 627px) {
   .modal {
     padding: 0 10px;
@@ -178,6 +233,11 @@
 
   .modal__container {
     padding: 12px;
+  }
+
+  .modal__form_type_buttons {
+    display: flex;
+    flex-direction: column;
   }
 
   .modal__title {
@@ -196,7 +256,11 @@
   }
 
   .modal__submit-btn {
-    width: 100%;
+    width: 156px;
+  }
+
+  .modal__submit-btn_disabled {
+    width: 276px;
   }
 
   .modal__content_type_preview {
