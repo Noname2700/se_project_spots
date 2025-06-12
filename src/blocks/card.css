@@ -102,6 +102,15 @@
     background-repeat: no-repeat;
   }
 
+  .card__like-btn_liked {
+    background-image: url(../images/redheart.svg);
+    opacity: 1;
+  }
+
+  .card__like-btn_liked:hover {
+    background-image: url(../images/lightred.svg);
+  }
+
   .card__delete-btn {
     margin: 10px 246px;
   }
