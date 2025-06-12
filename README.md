@@ -26,6 +26,11 @@ The form tags were also updated according to the brief in the validation file, t
 - EventListeners
 - forms Validatons
 - Objects
+- Wepack
+- API's(Asynchromous Operations
+  , Promise
+  , HTTP)
+- JSON
 
 ## Improvements Made To Project
 
@@ -45,6 +50,8 @@ The form tags were also updated according to the brief in the validation file, t
 - forms tags were also updated according to the brief in the validation file, this will provide different states that will take place depending on the condition we set on the input fields as well as allow the user info to still be in place if they ever want to come back and finish the form.
 - Users will be able to close all content(card images, and both forms) in two ways one by clicking outside the content and the other by pressing the esc keynote.
 - We created a settings object this will provide multiple elements that will function just like the class and id reference.
+- After a while we were introduced to APIs where we work with webpack and JSon This allows our website to be more active for the users to interact with the cards and especially the add avatar features that we implemented, this new feature allows users the option to delete the card images to, as well allowing us to change the image avatar. Now this is not a small feed, we had to refactor the the line of code.
+- Since we were introduced to the Apis we started to add to our project operations like async, promise, http , and finally JSON. We had to install the webpack and run to the IDE we were using to launch the website. Created promises operation, as well as the fetch request to, as we were transmitting data between servers and PC's user's in order to have the user add as well keep the info in the inputs fields, And finally, there JSOn where the where magic between the communication of the server and the pc happen to allow us to add cards, delete and change the avatar image and info.
 
 ## Figma
 

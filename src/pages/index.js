@@ -49,9 +49,9 @@ const api = new Api({
 
 api
   .getAppInfo()
-  .then(({ cards, users }) => {
-    cards.forEach((item) => {
-      const cardElement = getCardElement(item);
+  .then(([cards, users ]) => {
+    cards.forEach((cards) => {
+      const cardElement = getCardElement(cards);
       cardsList.append(cardElement);
     });
 
